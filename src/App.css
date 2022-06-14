@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100%
+}
+html{
+  background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:black;
+  color: black;
+}
+.right-side{
+  display: flex;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid white;
+}
+
+.nav-link-wrapper a {
+  color:white;
+  text-decoration: none;
+  transition: color 0.5s;
+
+}
+
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid white
+}
+
+.nav-link-wrapper a:hover {
+  color: white
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.links {
+  background-color:black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1vmax;
+}
+
+.home{
+  background-color: black;
+  color: white;
+}
+
+.operations{
+  color: white;
+}
+
+.transactions{
+  color: white;
+}
+
+#categories{
+  color: white;
+}
